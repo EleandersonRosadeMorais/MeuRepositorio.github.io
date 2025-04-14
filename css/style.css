@@ -1,0 +1,44 @@
+html {
+    scroll-behavior: smooth
+}
+
+section {
+    scroll-margin-top: 200px;
+}
+
+div.ampliar {
+    transition: transform 0.2s ease;
+    transform: scale(1.1);
+}
+
+.aumentar {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+    display: inline-block;
+}
+
+h3.mudarCor {
+    color: red;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    img {
+        width: 720px;
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}

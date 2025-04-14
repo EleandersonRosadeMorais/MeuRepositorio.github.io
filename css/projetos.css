@@ -1,0 +1,58 @@
+.projetos {
+    cursor: default;
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+.projetos fugure{
+    border-radius: 10%;
+}
+.projetos h2 {
+    margin-top: 3em;
+    font-weight: bold;
+    font-size: 36px;
+    color: rgb(168, 41, 41);
+    margin-bottom: 1em;
+}
+
+.projetos h3 {
+    margin-top: 1em;
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+    margin-bottom: 1em;
+}
+
+.projetos p {
+    margin: 0 0 1em;
+    font-size: 18px;
+    line-height: 1.5;
+    color: black;
+    font-weight: bolder;
+}
+.projetos img{
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 540px;
+    height: 360px;
+}
+
+@media (max-width: 768px) {
+    .projetos {
+        width: 90%;
+        padding: 0 10px;
+    }
+
+    .projetos h2 {
+        font-size: 28px;
+    }
+
+    .projetos h3 {
+        font-size: 20px;
+    }
+
+    .projetos p {
+        font-size: 16px;
+    }
+}

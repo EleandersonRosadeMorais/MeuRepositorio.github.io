@@ -1,0 +1,21 @@
+body.tema-escuro {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+body.tema-escuro .sobre,
+body.tema-escuro .objetivos,
+body.tema-escuro .formacao,
+body.tema-escuro .cursos,
+body.tema-escuro .projetos,
+body.tema-escuro .habilidades,
+body.tema-escuro .footer {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+body.tema-escuro h3,
+body.tema-escuro p {
+    color: #ffffff;
+}
+body.tema-escuro .projetos img{
+    border: 2px solid white;
+}

@@ -1,0 +1,50 @@
+footer {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    cursor: default;
+    background: rgb(75, 19, 19);
+    padding: 20px 0;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+footer li{
+    display: inline;
+}
+
+footer span {
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 1em;
+}
+
+footer ul {
+    padding-top: 0.5em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    footer span {
+        font-size: 16px;
+    }
+
+    footer ul li a {
+        font-size: 16px;
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+}

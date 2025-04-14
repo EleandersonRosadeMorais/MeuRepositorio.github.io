@@ -1,0 +1,38 @@
+.objetivos {
+    cursor: default;
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+.objetivos h2 {
+    margin-top: 3em;
+    font-weight: bold;
+    font-size: 36px;
+    color: rgb(168, 41, 41);
+    margin-bottom: 1em;
+}
+
+.objetivos p {
+    margin: 0 0 1em;
+    font-size: 18px;
+    line-height: 1.5;
+    color: black;
+    font-weight: bolder;
+}
+
+
+@media (max-width: 768px) {
+    .objetivos {
+        width: 90%;
+        padding: 0 10px;
+    }
+
+    .objetivos h2 {
+        font-size: 28px;
+    }
+
+    .objetivos p {
+        font-size: 16px;
+    }
+}
