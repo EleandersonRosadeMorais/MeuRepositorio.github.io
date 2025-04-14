@@ -1,6 +1,6 @@
 // Um efeito simulando um click no botão
-document.querySelectorAll("button").forEach((botao) => {
-    botao.addEventListener("click", () => {
+document.querySelectorAll("button").forEach(function(botao) {
+    botao.addEventListener("click", function () {
         // Aplica o efeito de click e depois some.
         botao.classList.add("clicado");
         setTimeout(() => botao.classList.remove("clicado"), 300);
@@ -25,7 +25,7 @@ function atualizarIcone() {
 
 
 // o botão vai alternar o tema quando clicado
-botaoAlternar.addEventListener("click", () => {
+botaoAlternar.addEventListener("click", function (){
     // Aqui faz a seleção do tema, como se fosse um "liga e desliga"
     corpo.classList.toggle("tema-escuro");
     // Salva o tema para quando atualizar a página ou fecha-lá, manter a cor do tema
@@ -43,7 +43,7 @@ botaoAlternar.addEventListener("click", () => {
 
 // Aqui ele irá verificar qual tema a página estava antes de fecha-lá ou atualiza-lá, 
 // para ao abrir a página, continue com o último tema selecionado
-window.addEventListener("load", () => {
+window.addEventListener("load", function () {
     const temaSalvo = localStorage.getItem("tema");
     if (temaSalvo === "escuro") {
         // Se o tema salvo for escuro, aplica ele direto
@@ -120,3 +120,25 @@ function atualizarCorSubtitulos() {
         }
     });
 }
+
+
+
+// Hover para aumentar e diminuir a imagem, com uma função de click
+let fotoPerfil = document.querySelectorAll(".foto");
+fotoPerfil.forEach(function (foto) { 
+    foto.addEventListener("mouseover", function(){
+        foto.classList.add("mudarFotoOut");
+    });
+    foto.addEventListener("mouseout", function(){
+        foto.classList.remove("mudarFotoOut");
+    });
+    foto.addEventListener("mouseout", function(){
+        foto.classList.add("mudarFotoIn");
+    });
+    foto.addEventListener("click", function(){
+        foto.classList.add("mudarFotoClick")
+    })
+    foto.addEventListener("mouseout", function(){
+        foto.classList.remove("mudarFotoClick")
+    })
+});

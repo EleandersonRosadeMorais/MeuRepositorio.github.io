@@ -20,3 +20,19 @@ div.ampliar {
 h3.mudarCor {
     color: red;
 }
+
+.mudarFotoIn {
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.mudarFotoOut {
+    transform: scale(1.1);
+    transition: transform 0.2s ease, filter 0.2s ease;
+    filter: brightness(1.1);
+}
+
+.mudarFotoClick{
+    transform: scale(0.5);
+    transition: transform 0.2s ease, filter 0.2s ease;
+    filter: brightness(0.9);
+}
