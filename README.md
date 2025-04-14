@@ -34,7 +34,7 @@ Este projeto foi desenvolvido para consolidar o aprendizado sobre as tecnologias
    ```
 2. **Abra o projeto no Visual Studio Code ou use o Código abaixo**
    ```bash
-   cd Meuportifolio
+   cd eleandersonrosademorais.github.io
    code .
    ```
 3. **execute o arquivo**`index.html`
@@ -49,7 +49,7 @@ Este projeto foi desenvolvido para consolidar o aprendizado sobre as tecnologias
 ## 📂 Estrutura do Repositório
 
 ```bash
-📂Meuportifolio
+📂eleandersonrosademorais.github.io
 │
 ├──📁css
 │   ├──📄body.css
